@@ -32,7 +32,7 @@ Make file [autostart](https://github.com/Stalker-Return/.openbox/blob/master/.co
 **Install:** virtualbox virtualbox-ext-oracle virtualbox-host-modules-arch<br/>
 sudo usermod -aG vboxusers ed & sudo gpasswd -a ed vboxusers<br/>
 To prevent VirtualBox modules to be automatically loaded at boot time, create an empty file:<br/>
-sudo nano /etc/modules-load.d/virtualbox-host-dkms.conf <br/>
+sudo nano /etc/modules-load.d/virtualbox-host-modules-arch.conf <br/>
 **To load the module manually, run:** modprobe vboxdrv<br/>
 <br/>
 **Xorg config**<br/>
