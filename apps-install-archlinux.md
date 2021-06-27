@@ -91,6 +91,6 @@ network manager: networkmanager-dmenu-git + dmenu<br/>
 system notifier: dunst (look at [dunstrc](https://addy-dclxvi.github.io/post/dunst/))<br/>
 grub settings: grub-customizer grub-theme-vimix<br/>
 image viwer: feh.desktop: Exec=/usr/bin/feh -B white -g 800x600 -d -. %f<br/>
-to generate xdg-menu, run: **xdg_menu --format openbox3 --root-menu /etc/xdg/menus/arch-applications.menu > xdg-menu.xml**<br/>
+(!!!) to generate xdg-menu, run: **xdg_menu --format openbox3 --root-menu /etc/xdg/menus/arch-applications.menu > xdg-menu.xml**<br/>
 bluetoth: blueman<br/>
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------<br/>
