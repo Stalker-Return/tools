@@ -69,6 +69,10 @@ $HOME/.config/openbox/[menu.xml](https://github.com/Stalker-Return/.dotfiles/blo
 [Lightdm autologin](https://www.maketecheasier.com/enable-autologin-lightdm/)<br/>
 make autologin group<br/>
 <br/>
+**Configure libreoffice**<br/>
+sudo nano /etc/libreoffice/sofficerc<br/>
+Logo=0<br/>
+<br/>
 **Configure GRUB**<br/>
 sudo nano /etc/default/grub<br/>
 sudo grub-mkconfig -o /boot/grub/grub.cfg<br/>
