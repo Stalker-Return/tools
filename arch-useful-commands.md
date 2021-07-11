@@ -71,6 +71,9 @@ gnome-screenshot -a --file=/home/ed/Pictures/screen.png<br/>
 **Create a bootable USB stick:**<br/>
 sudo dd if=archlinux-2021.01.01-x86_64.iso of=/dev/sdb bs=1M status=progress<br/>
 <br/>
+**Send system notificatio:**<br/>
+notify-send --urgency=critical --expire-time=3000 "Full System Update has completed"<br/>
+<br/>
 **mount / umount usb**<br/>
 sudo mount -t ntfs /dev/sdb1 /mnt/sdb1 -o uid=1000,gid=1000,utf8,dmask=027,fmask=137<br/>
 sudo umount /dev/sdb1<br/>
