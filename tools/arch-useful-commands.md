@@ -148,6 +148,7 @@ sudo systemctl --failed								<br/>
 sudo journalctl -p 3 -xb							<br/>
 sudo dmesg >> /home/ed/Clouds/Dropbox/BackUps/Linux/tools/dmesg.txt		<br/>
 
+
 **Format a Bootable USB to Normal:**				<br/>
 sudo fdisk -l										<br/>
 sudo umount /dev/sdc1								<br/>
