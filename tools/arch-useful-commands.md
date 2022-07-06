@@ -151,7 +151,7 @@ sudo dmesg >> /home/ed/Clouds/Dropbox/BackUps/Linux/tools/dmesg.txt		<br/>
 
 **Format a Bootable USB to Normal:**				<br/>
 sudo fdisk -l										<br/>
-sudo umount /dev/sdc1								<br/>
-sudo wipefs --all /dev/sdc							<br/>
-sudo cfdisk /dev/sdc								<br/>
-sudo mkfs.vfat -n 'ARCH' /dev/sdc1					<br/>
+sudo umount /dev/sdb1								<br/>
+sudo wipefs --all /dev/sdb							<br/>
+sudo cfdisk /dev/sdb								<br/>
+sudo mkfs.vfat -n 'ARCH' /dev/sdb1					<br/>
